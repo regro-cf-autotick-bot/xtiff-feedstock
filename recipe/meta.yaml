@@ -1,5 +1,5 @@
 {% set name = "xtiff" %}
-{% set version = "0.7.8" %}
+{% set version = "0.7.9" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/xtiff-{{ version }}.tar.gz
-  sha256: 5a13b13baaaa05b48fbedbf587dd3c9ac953cd6d5c4d375afc08a8f7d8ceaada
+  sha256: a77a30686fded43645b748be9a8cef9a6316b079e59b3163f7b52e2e294881d2
 
 build:
   noarch: python
@@ -37,7 +37,7 @@ about:
   home: https://github.com/BodenmillerGroup/xtiff
   summary: A tiny Python library for writing multi-channel TIFF stacks
   license: MIT
-  license_file: LICENSE.md
+  license_file: LICENSE
 
 extra:
   recipe-maintainers:
