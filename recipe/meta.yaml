@@ -37,7 +37,7 @@ about:
   home: https://github.com/BodenmillerGroup/xtiff
   summary: A tiny Python library for writing multi-channel TIFF stacks
   license: MIT
-  license_file: LICENSE.md
+  license_file: LICENSE
 
 extra:
   recipe-maintainers:
